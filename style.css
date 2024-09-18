@@ -261,6 +261,7 @@ body {
   top: 10px;
   width: 43px;
   height: 43px;
+  opacity: 1;
 }
 
 .modal-content {
@@ -583,6 +584,10 @@ form .error {
   
     font-size: 30px;
    
+}
+
+.modal {
+    background-color: rgba(0, 0, 0, .6);
 }
   
 }
