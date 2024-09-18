@@ -130,7 +130,7 @@ body {
 
 .Property_Type_Sizes p {
   line-height: 1.8;
-  font-size: 40px;
+  font-size: 30px;
   color: #000000;
   margin-bottom: 0px;
 }
@@ -356,7 +356,7 @@ form .error {
 .central .fs-4 {
   max-width: 560px;
   margin: 0 auto;
-  margin-bottom: 90px;
+  margin-bottom: 60px;
 }
 
 .luxury h2 {
@@ -443,7 +443,7 @@ form .error {
 }
 
 .fadeInUp {
-  animation: fadeInUp 1s ease backwards;
+  animation: fadeInUp 0.3s ease backwards;
 }
 @keyframes fadeInUp {
   0% {
@@ -516,7 +516,7 @@ form .error {
     padding: 19px;
    
         position: relative;
-        top: 90px;
+        top: 50px;
   }
 
   #get_price .t-title_xxs {
@@ -553,14 +553,36 @@ form .error {
 
 .Property_Type_Sizes p {
    
-    font-size: 30px;
+    font-size: 20px;
    
 }
 
 .p_ps {
-    font-size: 40px;
+    font-size: 30px;
 }
 
+.satrt_price {
+    font-size: 20px;
+}
 
+.t050__descr  div{
+    font-size: 20px !important;
+}
+
+.luxury p {
+    font-size: 20px;
+}
+
+.luxury h2 , .central h2 {
+  
+    font-size: 30px !important;
+    
+}
+
+.special_feature p {
+  
+    font-size: 30px;
+   
+}
   
 }
