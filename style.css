@@ -1,190 +1,193 @@
 body {
-    font-family: "Ubuntu", sans-serif !important;
+  font-family: "Ubuntu", sans-serif !important;
+  overflow-x: hidden !important;
 }
 
 :root {
-    --heading-color: #3b5d32;
-    --button-bgcolor: #427c34;
-
-
+  --heading-color: #3b5d32;
+  --button-bgcolor: #427c34;
 }
 
 .ubuntu-light {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 300;
-    font-style: normal;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .ubuntu-regular {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .ubuntu-medium {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 500;
-    font-style: normal;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .ubuntu-bold {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 700;
-    font-style: normal;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .ubuntu-light-italic {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 300;
-    font-style: italic;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: italic;
 }
 
 .ubuntu-regular-italic {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 400;
-    font-style: italic;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: italic;
 }
 
 .ubuntu-medium-italic {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 500;
-    font-style: italic;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: italic;
 }
 
 .ubuntu-bold-italic {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 700;
-    font-style: italic;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: italic;
 }
 
 /* hero */
 .herobg {
-    background: url('./images/Ext_Sky.jpg') no-repeat top center;
-    background-size: cover;
-    height: 760px;
-    background-position: 50.538% 25.252%;
+  background: url("./images/Ext_Sky.jpg") no-repeat top center;
+  background-size: cover;
+  height: 760px;
+  background-position: 50.538% 25.252%;
 }
 
 .herobg .filter {
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: 1;
-    width: 100%;
-    height: 760px;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.3));
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: 760px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.35),
+    rgba(0, 0, 0, 0.3)
+  );
 }
 
 /* luxury */
 .lux-btn {
-    background-color: var(--button-bgcolor) !important;
+  background-color: var(--button-bgcolor) !important;
+  position: relative;
 }
 
 .lux-title {
-    color: var(--heading-color)
+  color: var(--heading-color);
 }
 
 /* map */
 .map {
-    background: url('./images/Map.jpg') no-repeat center center;
-    height: 100vh;
-    background-size: cover;
+  background: url("./images/Map.jpg") no-repeat center center;
+  height: 100vh;
+  background-size: cover;
 }
 
 /* central */
 .central-title {
-    color: var(--heading-color)
+  color: var(--heading-color);
 }
 
 .centralbgimg {
-    background: url('./images/centralbgimg.jpg') no-repeat center center;
-    height: 776px;
-    background-size: cover;
+  background: url("./images/centralbgimg.jpg") no-repeat center center;
+  height: 776px;
+  background-size: cover;
 }
 
 /* worldclass */
 
 .worldclass-bgimg {
-    background: url('./images/Ext_pool.jpg') no-repeat center center;
-    height: 776px;
-    background-size: cover;
+  background: url("./images/Ext_pool.jpg") no-repeat center center;
+  height: 776px;
+  background-size: cover;
 }
 
 /* specail features */
 
 .special_feature,
 .Property_Type_Sizes {
-    padding-top: 60px;
-    padding-bottom: 45px;
+  padding-top: 60px;
+  padding-bottom: 45px;
 }
 
 .special_feature p {
-    line-height: 1.8;
-    font-size: 40px;
-    color: var(--heading-color);
+  line-height: 1.8;
+  font-size: 40px;
+  color: var(--heading-color);
 }
 
 .Property_Type_Sizes p {
-    line-height: 1.8;
-    font-size: 40px;
-    color: #000000;
-    margin-bottom: 0px;
+  line-height: 1.8;
+  font-size: 40px;
+  color: #000000;
+  margin-bottom: 0px;
 }
 
 .t050__descr,
 .Property_Types_text {
-    line-height: 1.8;
+  line-height: 1.8;
 }
 
 .t050__descr,
 .Property_Types_text {
-    padding-top: 50px;
-    padding-bottom: 9px;
+  padding-top: 50px;
+  padding-bottom: 9px;
 }
 
 .t-descr,
 .Property_Types_text {
-    font-family: 'Ubuntu', Arial, sans-serif;
-    font-weight: 300;
-    color: #000000;
+  font-family: "Ubuntu", Arial, sans-serif;
+  font-weight: 300;
+  color: #000000;
 }
 
 /* gallery css */
 
 .gallery-item {
-    display: block;
+  display: block;
 }
 
 .gallery-item img {
-    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.15);
-    transition: box-shadow 0.2s;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.2s;
 }
 
 .gallery-item:hover img {
-    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.35);
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.35);
 }
 
-.footer>div {
-    padding: 30px 10px;
+.footer > div {
+  padding: 30px 10px;
 }
 
 /* back top */
 
 #button {
-    display: inline-block;
-    background-color: var(--button-bgcolor);
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    border-radius: 4px;
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    transition: background-color .3s,
-        opacity .5s, visibility .5s;
-    opacity: 0;
-    visibility: hidden;
-    z-index: 1000;
+  display: inline-block;
+  background-color: var(--button-bgcolor);
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
 }
 
 /* #button::after {
@@ -197,247 +200,367 @@ body {
     color: #fff;
   } */
 #button:hover {
-    cursor: pointer;
-    background-color: #333;
+  cursor: pointer;
+  background-color: #333;
 }
 
 #button:active {
-    background-color: #555;
+  background-color: #555;
 }
 
 #button.show {
-    opacity: 1;
-    visibility: visible;
+  opacity: 1;
+  visibility: visible;
 }
 
 .t389__icon {
-    position: relative;
-    right: 0;
-    top: 10px;
+  position: relative;
+  right: 0;
+  top: 10px;
 }
 /* modal css */
 
- .t702__text-wrapper {
-    margin-bottom: 24px;
+.t702__text-wrapper {
+  margin-bottom: 24px;
 }
 
 .t702__title {
-    margin-bottom: 11px;
+  margin-bottom: 11px;
 }
 .t-title_xxs {
-    font-size: 36px;
-    line-height: 1.23;
+  font-size: 36px;
+  line-height: 1.23;
 }
 
 .t-title {
-    font-family: 'Ubuntu', Arial, sans-serif;
-    font-weight: 600;
-    color: #000000;
+  font-family: "Ubuntu", Arial, sans-serif;
+  font-weight: 600;
+  color: #000000;
 }
 
 @media (min-width: 576px) {
-    .modal-dialog {
-        max-width: 600px !important;
-        margin-right: auto;
-        margin-left: auto;
-    }
+  .modal-dialog {
+    max-width: 600px !important;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 .modal-header .btn-close {
-   
-    left: 20%;
+  /* left: 20%;
     position: relative;
     top: -61px;
+    filter: invert(1); */
+  /* left: 50%;
+    position: relative;
     filter: invert(1);
+    bottom: 110px; */
+  filter: invert(1);
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  width: 43px;
+  height: 43px;
 }
 
-.modal-content{
-    padding: 40px 45px;
-    border-radius: 0 !important;
-    /* text-align: center; */
+.modal-content {
+  padding: 40px 45px;
+  border-radius: 0 !important;
+  /* text-align: center; */
 }
 
-.modal-header{
-    padding: 0px !important;
-    text-align: center;
+.modal-header {
+  padding: 0px !important;
+  text-align: center;
 }
 
- #get_price .form-control{
-    margin: 0;
-    height: 60px;
-    padding: 0 20px;
-    font-size: 16px;
-    line-height: 1.33;
-    width: 100%;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    outline: none;
-    /* -webkit-appearance: none; */
-    border-radius: 0;
-    color: #000000;
-    border: 1px solid #c9c9c9;
-    border-radius: 0;
-    -moz-border-radius: 0;
-    -webkit-border-radius: 0;
+#get_price .form-control {
+  margin: 0;
+  height: 60px;
+  padding: 0 20px;
+  font-size: 16px;
+  line-height: 1.33;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+  /* -webkit-appearance: none; */
+  border-radius: 0;
+  color: #000000;
+  border: 1px solid #c9c9c9;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
 }
 
- #get_price .intl-tel-input input{
-    margin: 0;
-    height: 60px;
-    padding: 0 40px;
-    font-size: 16px;
-    line-height: 1.33;
-    width: 100%;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    outline: none;
-    /* -webkit-appearance: none; */
-    border-radius: 0;
-    color: #000000;
-    border: 1px solid #c9c9c9;
-    border-radius: 0;
-    -moz-border-radius: 0;
-    -webkit-border-radius: 0;
+#get_price .intl-tel-input input {
+  margin: 0;
+  height: 60px;
+  padding: 0 40px;
+  font-size: 16px;
+  line-height: 1.33;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+  /* -webkit-appearance: none; */
+  border-radius: 0;
+  color: #000000;
+  border: 1px solid #c9c9c9;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
 }
 
 .intl-tel-input .flag-dropdown {
-    position: absolute;
-    z-index: 1;
-    cursor: pointer;
-    top: 11px;
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+  top: 11px;
 }
 
-
 form .error {
-    color: #ff0000;
+  color: #ff0000;
 }
 
 .herobg .ubuntu_bold_new {
-    font-size: 39px;
-    font-family: 'Ubuntu', Arial, sans-serif;
-    line-height: 1.65;
-    font-weight: 400;
-    letter-spacing: 0.5px;
-    text-transform: capitalize;
+  font-size: 39px;
+  font-family: "Ubuntu", Arial, sans-serif;
+  line-height: 1.65;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  font-weight: 700;
+}
+
+.starting_dollars {
+  color: #fffcfc;
+  font-size: 44px;
+  font-family: "Ubuntu", Arial, sans-serif;
+  line-height: 1.65;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+  background-position: center;
+}
+
+.luxury,
+.central {
+  padding-top: 60px;
+  padding-bottom: 15px;
+}
+
+.central .fs-4 {
+  max-width: 560px;
+  margin: 0 auto;
+  margin-bottom: 90px;
+}
+
+.luxury h2 {
+  line-height: 1.8;
+  font-size: 40px;
+  color: var(--heading-color);
+}
+
+.luxury p {
+  font-size: 30px;
+}
+
+.thank_you {
+  color: #000000;
+  font-size: 58px;
+  font-family: "Ubuntu", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 700;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+}
+
+
+
+/* animation css */
+
+.lux-btn::after {
+    content: '';
+    position: absolute;
+    height: 350%;
+    width: 200%;
+    top: 0;
+    left: -100%;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 100%;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    z-index: 20;
+    -webkit-animation-name: ripple;
+    animation-name: ripple;
+    -webkit-animation-duration: 6s;
+    animation-duration: 6s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes ripple {
+    20% {
+        opacity: 0;
+        -webkit-transform: scale(2.5);
+        transform: scale(2.5);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: scale(2.5);
+        transform: scale(2.5);
+    }
+}
+
+@keyframes ripple {
+    20% {
+        opacity: 0;
+        -webkit-transform: scale(2.5);
+        transform: scale(2.5);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: scale(2.5);
+        transform: scale(2.5);
+    }
+}
+
+
+/* ebds */
+
+.lux-btn:hover {
+  background-color: #3a9123 !important;
+}
+
+.fadeInUp {
+  animation: fadeInUp 1s ease backwards;
+}
+@keyframes fadeInUp {
+  0% {
+    transform: translate(0px, 100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0px, 0);
+    opacity: 1;
+  }
+}
+
+@media (min-width: 601px) {
+  .herobg {
+    background: url(./images/Ext_Sky.jpg) no-repeat top center;
+    background-size: cover;
+    height: 760px;
+    background-position: 50.538% 25.252%;
+  }
+}
+
+@media (max-width: 600px) {
+  .herobg {
+    background: url(./images/small_bg.jpg) no-repeat top center;
+    background-size: cover;
+    height: 760px;
     background-position: center center;
-    border-color: transparent;
-    border-style: solid;
+  }
+
+  .herobg .ubuntu_bold_new {
+    font-size: 23px;
+    line-height: 1.6;
+    letter-spacing: 0px;
+    line-height: 32px;
     font-weight: 700;
+  }
+
+  .starting_dollars {
+    text-align: center;
+    position: relative;
+    top: 100px;
+  }
+
+  .herobg .filter {
+    background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.35),
+      rgba(0, 0, 0, 0.5)
+    );
+  }
+
+  .map,
+  .centralbgimg,
+  .worldclass-bgimg {
+    background-size: cover;
+    height: 279px;
+  }
+
+  section {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .photo-gallery {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .modal-content {
+    padding: 19px;
+   
+        position: relative;
+        top: 90px;
+  }
+
+  #get_price .t-title_xxs {
+    line-height: 1.23;
+    font-size: 24px;
+  }
+
+.central .mb-5 {
+    margin-bottom: 2rem !important;
 }
 
-.starting_dollars{
-    color: #fffcfc;
-    font-size: 44px;
-    font-family: 'Ubuntu', Arial, sans-serif;
-    line-height: 1.65;
-    font-weight: 400;
-    letter-spacing: 0.5px;
-    text-transform: capitalize;
-    background-position: center 
+.central .fs-5 {
+    font-size: 16px !important; 
 }
 
-.luxury , .central{
-    padding-top: 60px;
-    padding-bottom: 15px;
+.central .pb-5 {
+    padding-bottom: 1rem !important;
 }
 
 .central .fs-4 {
     max-width: 560px;
     margin: 0 auto;
-    margin-bottom: 90px;
+    margin-bottom: 45px;
 }
 
+.special_feature p {
 
-.luxury h2{
-    line-height: 1.8;
-font-size: 40px;
-color: var(--heading-color);
+    margin-bottom: 0;
 }
 
-.luxury p{
+.special_feature , .Property_Type_Sizes {
+    padding-bottom: 10px !important;
+}
+
+.Property_Type_Sizes p {
+   
     font-size: 30px;
+   
 }
 
-.thank_you {
-    color: #000000;
-    font-size: 58px;
-    font-family: 'Ubuntu', Arial, sans-serif;
-    line-height: 1.55;
-    font-weight: 700;
-    background-position: center center;
-    border-color: transparent;
-    border-style: solid;
+.p_ps {
+    font-size: 40px;
 }
 
-.lux-btn:hover {
-    background-color:#3A9123 !important;
-  }
 
-
-@media (min-width: 601px) {
-
-
-    .herobg {
-        background: url(./images/Ext_Sky.jpg) no-repeat top center;
-        background-size: cover;
-        height: 760px;
-        background-position: 50.538% 25.252%;
-    }
-  }
   
-  @media (max-width: 600px) {
-    .herobg {
-        background: url(./images/small_bg.jpg) no-repeat top center;
-        background-size: cover;
-        height: 760px;
-        background-position: center center;
-    }
-
-    .herobg .ubuntu_bold_new {
-        font-size: 23px;
-        line-height: 1.6;
-        letter-spacing: 0px;
-        line-height: 32px;
-        font-weight: 700;
-    
-    }
-
-    .starting_dollars{
-        text-align: center;
-        position: relative;
-        top: 100px;
-    }
-
-
-    .herobg .filter {
-       
-        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.5));
-    }
-
-    .map , .centralbgimg , .worldclass-bgimg{
-        background-size: cover;
-        height: 279px;
-    }
-    
-    section{
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .photo-gallery {
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-
-    .modal-content {
-       
-        padding: 19px;
-    }
-
-    #get_price .t-title_xxs {
-        line-height: 1.23;
-        font-size: 24px;
-    }
-    
-
-  }
+}
